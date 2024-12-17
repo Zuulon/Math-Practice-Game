@@ -1,6 +1,9 @@
 import streamlit as st
 import random
 
+for i in range(2):
+    st.spinner()
+
 st.title("Math Practice Game")
 
 with st.form("input_form"):
